@@ -211,6 +211,7 @@ input, textarea, select { font-family: inherit; }
   justify-content: space-between;
   height: 70px;
   gap: 16px;
+  overflow: visible;
 }
 
 /* Logo */
@@ -293,20 +294,22 @@ input, textarea, select { font-family: inherit; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  background: var(--primary-pale);
+  gap: 6px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  padding: 0;
+  background: var(--primary);
   border-radius: var(--r-sm);
-  border: 1.5px solid var(--border-soft);
   flex-shrink: 0;
+  cursor: pointer;
 }
 .nav-hamburger span {
   display: block;
-  width: 20px; height: 2px;
-  background: var(--primary);
-  border-radius: 2px;
+  width: 22px;
+  height: 2.5px;
+  background: #ffffff;
+  border-radius: 3px;
   transition: all var(--ease);
 }
 
