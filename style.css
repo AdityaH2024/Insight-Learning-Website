@@ -11,9 +11,10 @@
    ============================================================ */
 :root {
   /* Primary — deep teal/blue (readable, not dark) */
-  --primary:        #1a6b8a;
-  --primary-light:  #2389ad;
-  --primary-pale:   #e8f4f8;
+--primary:        #7B1FA2;
+--primary-light:  #9C27B0;
+--primary-pale:   #f3e5f5;
+--border:         #e1bee7;
 
   /* Accent — warm amber */
   --accent:         #f59e0b;
@@ -242,7 +243,6 @@ input, textarea, select { font-family: inherit; }
   font-size: 22px;
 }
 
-.nav-logo-text {}
 .nav-logo-name {
   font-family: var(--font-head);
   font-size: 19px;
@@ -1126,7 +1126,6 @@ input, textarea, select { font-family: inherit; }
 .cfc-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-soft); margin-bottom: 9px; margin-top: 18px; }
 .cfc-label:first-child { margin-top: 0; }
 .cfc-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 4px; }
-.cfc-features { }
 .cfc-feat {
   display: flex;
   align-items: center;
