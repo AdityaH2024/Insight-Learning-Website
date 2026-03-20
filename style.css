@@ -291,13 +291,21 @@ input, textarea, select { font-family: inherit; }
 .nav-hamburger {
   display: none;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
   padding: 8px;
+  width: 40px;
+  height: 40px;
+  background: var(--primary-pale);
+  border-radius: var(--r-sm);
+  border: 1.5px solid var(--border-soft);
+  flex-shrink: 0;
 }
 .nav-hamburger span {
   display: block;
-  width: 22px; height: 2px;
-  background: var(--text-dark);
+  width: 20px; height: 2px;
+  background: var(--primary);
   border-radius: 2px;
   transition: all var(--ease);
 }
@@ -1481,6 +1489,9 @@ select.form-ctrl { cursor: pointer; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; justify-content: center; }
   .hero-stat-row { grid-template-columns: 1fr 1fr; }
+  .nav-links    { display: none; }
+  .nav-hamburger { display: flex; }
+
 }
 
 @media (max-width: 480px) {
